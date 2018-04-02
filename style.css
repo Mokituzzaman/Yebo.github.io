@@ -1,0 +1,157 @@
+
+.logo-area{
+	display:none;
+}
+
+
+
+header {
+	position: relative;
+	overflow: hidden;
+
+}
+header .main-menu-area{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: block;
+}
+header .main-menu-area ul li{
+	padding: 0 35px;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-size: 16px;
+	
+	font-family: 'Lato', sans-serif;
+}
+header .main-menu-area  ul li a{
+	color: #4d4959;
+	letter-spacing: 1px;
+
+}
+
+.header-image img {
+	width: 100%;
+	height: auto;
+}
+
+.intro-area{
+	padding: 80px ;
+	text-align: center;
+	background: #f7f7f7;
+}
+.intro-area p{
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	line-height: 2em;
+	color: #8d9092;
+	padding: 10px;
+}
+.intro-area h3{
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	padding: 40px 0;
+	letter-spacing: 2px;
+}
+
+.gallery-area .col-md-8 img{
+	width:100%;
+	height:auto;
+}
+.gallery-area .col-md-4 .small img{
+	width:100%;
+	height:auto;
+}
+.gallery-area .col-md-8 .logo-image {
+	position: absolute;
+	z-index: 9999;
+	top:45%;
+	left: 45%;
+
+	
+}
+.gallery-area .col-md-8{
+	padding:0;
+	overflow: hidden;
+	max-height: 485px;
+}
+.gallery-area .col-md-4{
+	text-align:center;
+	padding:0;
+	overflow: hidden;
+	max-height: 485px;
+}
+
+.gallery-area .col-md-4 hr{
+	border-top:1.5px solid gray;
+	width: 60px;
+	padding-bottom: 10px;
+}
+.gallery-area .col-md-4 .icon img{
+	padding-top:25px;
+	
+	
+}
+.gallery-area .col-md-4 h3{
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	padding: 20px 0;
+	letter-spacing: 2px;
+}
+.gallery-area p{
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	color: #8d9092;
+	padding: 10px;
+}
+.tweet-area {
+	text-align: center;
+	padding: 100px 0;
+}
+.tweet-area h3 span{
+	font-size: 13;
+	letter-spacing: 2px;
+	color: gray;
+}
+.tweet-area h3{
+	font-family: :Lato;
+	font-size: 18px;
+	font-weight: 300;
+}
+.tweet-area p {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	color: #8d9092;
+	letter-spacing: 1px;
+}
+.tweet-area .tweet-icon{
+	font-size: 40px;
+	color: skyblue;
+	
+}
+.tweet-area i{
+	padding-top: 50px;
+}
+.intro-area .tweet-area  
+@media only screen and (max-width: 810px) {
+	
+	header .main-menu-area ul li img{
+		display: none;
+	}
+	header .main-menu-area ul {
+		display: inline-grid;
+		font-weight: bold;
+		float: left;
+		margin-top: 0;
+
+	}
+	header .main-menu-area ul li a{
+		padding: 0 0;
+		color: #86ceb3;
+		font-size:80%;
+	}
+		
+
+}
